@@ -1,0 +1,16 @@
+{
+  "name": "e2ee-chat-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for E2EE chat",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  }
+}
